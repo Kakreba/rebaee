@@ -1,4 +1,4 @@
-function uncover(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/uncover","_self")}
+function uncover(){window.open("","_self")}
 function insta(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/insta","_self")}
 function tiktok(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/tiktok","_self")}
 function vshack(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/vshack.plist","_self")}
