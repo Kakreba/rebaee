@@ -1,9 +1,6 @@
-function uncover(){window.open("","_self")}
-function insta(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/insta","_self")}
-function tiktok(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/tiktok","_self")}
-function vshack(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/vshack.plist","_self")}
-function vspro(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/vspro","_self")}
-function djay(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/djay","_self")}
-function cute(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/cute","_self")}
-function picsart(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/picsart","_self")}
-function vspro12(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/vspro12","_self")}
+function vshack(){window.open("","_self")}
+function vspro(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/insta","_self")}
+function snapx(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/tiktok","_self")}
+function insta(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/vshack.plist","_self")}
+function tiktoklrd(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/vspro","_self")}
+function youtube(){window.open("itms-services://?action=download-manifest&amp;url=https://ittza7aa.com/plist/djay","_self")}
