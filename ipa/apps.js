@@ -6,7 +6,7 @@ function vn(){window.open("","_self")}
 function lumaf(){window.open("","_self")}
 function funimate(){window.open("","_self")}
 function snapplus(){window.open("","_self")}
-function snapx(){window.open("","_self")}
+function snapx(){window.open("https://archive.org/download/snapchatx-zhanyar/Snapchatx%20zhanyar.ipa","_self")}
 
 
 
