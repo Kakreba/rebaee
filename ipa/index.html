@@ -420,55 +420,7 @@
       <row>
         <p class="text7">IPA</p>
 
-
-<div class="page-content tab" id="search-tab">
-
-
-						<form class="searchbar no-hairline">
-							<div class="searchbar-inner">
-								<div class="searchbar-input-wrap">
-									<input style="border-radius:10px;" type="گەڕان🖤" id="filterInput"
-										placeholder="گەڕان🖤">
-									<i class="searchbar-icon"></i>
-									<span class="input-clear-button"></span>
-								</div>
-								
-							</div>
-						</form>
-
-
-						<div>
-
-
-							<script>
-								// Get input element
-								let filterInput = document.getElementById('filterInput');
-								// Add event listener
-								filterInput.addEventListener('keyup', filterNames);
-
-								function filterNames() {
-									// Get value of input
-									let filterValue = document.getElementById('filterInput').value.toUpperCase();
-
-									// Get names ul
-									let div = document.getElementById('name');
-									// Get lis from ul
-									let div = div.querySelectorAll('name-item');
-
-									// Loop through collection-item lis
-									for (let i = 0; i < div.length; i++) {
-										let a = div[i].getElementsByTagName('a')[0];
-										// If matched
-										if (a.innerHTML.toUpperCase().indexOf(filterValue) > -1) {
-											div[i].style.display = '';
-										} else {
-											div[i].style.display = 'none';
-										}
-									}
-
-								}
-							</script>
-						</div>
+<ul>
 
 
 
@@ -904,6 +856,7 @@
   <br><br>
 
   </div>
+<ul>
   <!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps-->
   <!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps-->
   <!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps-->
