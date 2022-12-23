@@ -415,7 +415,7 @@
   <!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps-->
 
   <div id="apps" class="tabcontent">
-    <div class="card shadoww-sm border-0">
+    <div class="card shadoww-sm border-0" id="name">
 
       <row>
         <p class="text7">IPA</p>
@@ -432,7 +432,7 @@
 									<i class="searchbar-icon"></i>
 									<span class="input-clear-button"></span>
 								</div>
-								<span class="searchbar-disable-button"> ڕەت کردنەوە </span>
+								
 							</div>
 						</form>
 
@@ -453,7 +453,7 @@
 									// Get names ul
 									let ul = document.getElementById('name');
 									// Get lis from ul
-									let li = ul.querySelectorAll('li.name-item');
+									let li = ul.querySelectorAll('name-item');
 
 									// Loop through collection-item lis
 									for (let i = 0; i < li.length; i++) {
@@ -481,7 +481,7 @@
                 <img src="aseets/img/fx.jpeg" style="border-radius: 20%;" width="50px" height="50px" class="n">
               </div>
               <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
-                <div class="text5">
+                <div class="text5" id="name-item">
                   Video FX
                 </div>
 
