@@ -12,7 +12,7 @@ function snapx(){window.open("https://archive.org/download/snapchatx-zhanyar/Sna
 
 
 
-function instagramplus(){window.open("https://archive.org/download/20221223_20221223_1356/DLInsta_264.0_com.burbn.instagram_iPhone%20Distribution%3A%20Beijing%20Whaty%20Technology%20Development%20Co.%2CLtd._1671801290.ipa","_self")}
+function instagramplus(){window.open("https://archive.org/download/20221223_20221223_1356/DLInsta_264.0_com.burbn.instagram_iPhone%20Distribution%3A%20Beijing%20Whaty%20Technology%20Development%20Co.%2CLtd._1671801290.ipa")}
 function tikplus(){window.open("","_self")}
 function tikLRD(){window.open("https://archive.org/download/tiktoklrd_202212/TikTok%20LRD_27.2.0_com.zhiliaoapp.musically_iPhone%20Distribution%3A%20Beijing%20Whaty%20Technology%20Development%20Co.%2CLtd._1671801689.ipa","_self")}
 function TikAC(){window.open("","_self")}
