@@ -625,7 +625,7 @@ oooAKKKKACiiigAooooAKKKKAP/Z</data>
 			<key>PayloadUUID</key>
 			<string>eca205b7cc5103b6f58debbb0959b172</string>
 			<key>PayloadVersion</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>Precomposed</key>
 			<true/>
 			<key>URL</key>
@@ -647,6 +647,6 @@ oooAKKKKACiiigAooooAKKKKAP/Z</data>
 	<key>PayloadUUID</key>
 	<string>b91f0df972c02d99206cb750f82e85cb</string>
 	<key>PayloadVersion</key>
-	<integer>2</integer>
+	<integer>1</integer>
 </dict>
 </plist>
