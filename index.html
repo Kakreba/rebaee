@@ -1,133 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="default">
-		<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
-		<meta name="propeller" content="28dc02b4ff71e8c2d0c28717bf1ba22f">
-		<title>Zhanyar IOS</title>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/framework7.bundle.min.css">
-<link rel="shortcut icon" href="images/Favicon.jpeg" type="image/x-icon">
-<link rel="apple-touch-icon" href="images/Favicon.jpeg">
-<link rel="apple-touch-icon" sizes="72x72" href="images/Favicon.jpeg">
-<link rel="apple-touch-icon" sizes="114x114" href="images/Favicon.jpeg">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+	<meta name="propeller" content="28dc02b4ff71e8c2d0c28717bf1ba22f">
+	<title>Zhanyar IOS</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/framework7.bundle.min.css">
+	<link rel="shortcut icon" href="images/Favicon.jpeg" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/Favicon.jpeg">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/Favicon.jpeg">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/Favicon.jpeg">
 
 
 
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style4.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style4.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-	</head>
-	<!-- Page with both the shortcuts enabled -->
+	<!--Red : rgb(255, 0, 0) and #fc0303-->
+	<!--orange : rgb(32, 159, 46) and #ffbf00-->
+	<!--green : rgb(32, 159, 46) and #3dfc03-->
+	<style>
+		#sun {
+			background-color: #fc0303;
+		}
+	</style>
+</head>
+<!-- Page with both the shortcuts enabled -->
+
 <body data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true">
-  ...
-  <!-- Requires halfmoon.js -->
-  <script src="path/to/halfmoon.js"></script>
+	...
+	<!-- Requires halfmoon.js -->
+	<script src="path/to/halfmoon.js"></script>
 
-		
-		<div id="app">
-			<div class="view view-main view-init" data-url="/">
-				<div class="page page-home page-with-subnavbar">
-					<div class="toolbar tabbar tabbar-labels toolbar-bottom">
-						<div class="toolbar-inner">
-							<a href="#tab-home" class="tab-link tab-link-active">
-								<i class="fa fa-home"></i>
-								<p>سەرەتا</p>
-							</a>
 
-														
+	<div id="app">
+		<div class="view view-main view-init" data-url="/">
+			<div class="page page-home page-with-subnavbar">
+				<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+					<div class="toolbar-inner">
+						<a href="#tab-home" class="tab-link tab-link-active">
+							<i class="fa fa-home"></i>
+							<p>سەرەتا</p>
+						</a>
 
-														<a href="#tab-other" class="tab-link">
-															<i class='fas fa-grip-lines'></i>
-								<p>شتی تر</p>
-							</a>
-																					<!--6666666666-->
-							<a href="#tab-i" class="tab-link">
-								<i class="fas fa-star"></i>
-								<p>دەربارە</p>
-							</a>
 
-							
 
-						</div> 
-					</div> 
-					    <div style="background:#FAFAFA;height:15px" class="navbar">
-								
+						<a href="#tab-other" class="tab-link">
+							<i class='fas fa-grip-lines'></i>
+							<p>شتی تر</p>
+						</a>
+						<!--6666666666-->
+						<a href="#tab-i" class="tab-link">
+							<i class="fas fa-star"></i>
+							<p>دەربارە</p>
+						</a>
+
+
+
+					</div>
 				</div>
-					<!-- tabs -->
-					<div class="tabs-animated-wrap">
-						<div class="tabs">
-							<!-- tabs home -->
-							<div id="tab-home" class="tab page-content tab-active">
-								<!-- home -->
+				<div style="background:#FAFAFA;height:15px" class="navbar">
+
+				</div>
+				<!-- tabs -->
+				<div class="tabs-animated-wrap">
+					<div class="tabs">
+						<!-- tabs home -->
+						<div id="tab-home" class="tab page-content tab-active">
+							<!-- home -->
+							<div class="container">
+								<div class="separator"></div>
+								<!-- title home -->
+								<center>
+									<br />
+
+									<div id="chat"></div>
+									<h1 class="ml1">
+										<span class="text-wrapper">
+											<span class="line line1"></span>
+											<span class="letters">SOI raynahZ</span>
+											<span class="line line2"></span>
+										</span>
+									</h1>
+									<br />
+
+									<!-- end login-register-with -->
+
+
+									<p>
+
+										ژەنیار ئایۆئێس ستۆریەک تایبەت بە بەرنامە هاکراوەکان و کراک کراوەکان بۆ ئایفۆن و
+										ئایپاد
+									</p>
+
+									<br>
+
+									<a class="link external" href="https://t.me/Zhanyarios">
+										<div class='social-btn flex-center' id="github">
+											<svg style="color: #00acee;" xmlns="http://www.w3.org/2000/svg" width="25"
+												height="25" fill="currentColor" class="bi bi-telegram"
+												viewBox="0 0 16 16">
+												<path
+													d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+											</svg>
+											<span>ZhanyarIOS<br> دوبارە داگرە</span>
+										</div>
+									</a>
+									<a class="link external" href="./zhanyar.mobileconfig">
+										<div class='social-btn flex-center' id="github">
+											<svg style="color: #000;" xmlns="http://www.w3.org/2000/svg" width="25"
+												height="25" fill="currentColor" class="bi bi-download"
+												viewBox="0 0 16 16">
+												<path
+													d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+												<path
+													d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+											</svg>
+											<span>Download Website <br> دوبارە داگرە</span>
+										</div>
+									</a>
+								</center>
+
+								<!-- pages -->
 								<div class="container">
 									<div class="separator"></div>
-									<!-- title home -->
-<center>
-<br />
-
-					<div id="chat"></div>
-<h1 class="ml1">
-  <span class="text-wrapper">
-    <span class="line line1"></span>
-    <span class="letters">SOI raynahZ</span>
-    <span class="line line2"></span>
-  </span>
-</h1> 
-<br />
-
-					<!-- end login-register-with -->
-					
-					
-<p>
-	
-	ژەنیار ئایۆئێس ستۆریەک تایبەت بە بەرنامە هاکراوەکان و کراک کراوەکان بۆ ئایفۆن و ئایپاد
-</p>
-
-<br>
-
-<a class="link external" href="https://t.me/Zhanyarios">
-				<div class='social-btn flex-center' id="github">
-			<svg style="color: #00acee;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/> </svg>
-			<span>ZhanyarIOS<br> دوبارە داگرە</span>
-		</div>
-		</a>
-		<a class="link external" href="./zhanyar.mobileconfig">
-			<div class='social-btn flex-center' id="github">
-				<svg style="color: #000;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16"> <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/> <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/> </svg>
-<span>Download Website <br> دوبارە داگرە</span> 
-	</div>
-	</a>
-</center>
-
-								<!-- pages --> 
-<div class="container">
-<div class="separator"></div>
-<div class="list-li">
-	<i id="sun" style="background-color:rgb(255,0,0); border: .6px solid gray; margin-right: 10px; margin-left: 10px; margin-bottom: 20px; margin-top: 20px; border-radius: 30px; height: 5px ;width: 10px;" class="badge badge-pill badge-Signed"></i>
-<ul>
+									<div class="list-li">
+										<i id="sun"
+											style=" border: .6px solid gray; margin-right: 10px; margin-left: 10px; margin-bottom: 20px; margin-top: 20px; border-radius: 30px; height: 5px ;width: 10px;"
+											class="badge badge-pill badge-Signed"></i>
+										<ul>
 											<li>
-												<a class="link external"  href="/apps/">
-													<i style="background:#000" class="fab fa-apple"></i>  بەرنامەکان<span><i class="fa fa-chevron-left"></i></span>
+												<a class="link external" href="/apps/">
+													<i style="background:#000" class="fab fa-apple"></i>
+													بەرنامەکان<span><i class="fa fa-chevron-left"></i></span>
 												</a>
 											</li>
 											<li>
-												<a class="link external"  href="./ipa/">
-													<i class="fas fa-file"></i>   بەرنامەکان لەسەر شێوازی IPA   <span><i class="fa fa-chevron-left"></i></span>
+												<a class="link external" href="./ipa/">
+													<i class="fas fa-file"></i> بەرنامەکان لەسەر شێوازی IPA <span><i
+															class="fa fa-chevron-left"></i></span>
 												</a>
 											</li>
 
-										<!--
+											<!--
 											<li>
 												<a href="/appios/">
 													<i style="background:blue;" class="fab fa-app-store-ios"></i> تطبيقات IPA  <span><i class="fa fa-chevron-left"></i></span>
@@ -142,318 +165,329 @@
 											</li>
 											<!--66666666-->
 											<li>
-												<a class="link external"  href="/jb/">
-												<i class='fas fa-box-open' style='color:#0061fe'></i>جێلبرێک <span><i class="fa fa-chevron-left"></i></span>
+												<a class="link external" href="/jb/">
+													<i class='fas fa-box-open' style='color:#0061fe'></i>جێلبرێک
+													<span><i class="fa fa-chevron-left"></i></span>
 												</a>
 											</li>
 
 
-											
-
-											
 
 
-</ul>
-</div>
-<br /><br />
 
 
-								<!-- end pages -->
-								<div class="separator-big"></div>
-							</div>
-									<!-- end title home -->
 
-									<div class="separator"></div>
-								
-									<!-- end features -->
+										</ul>
+									</div>
+									<br /><br />
+
+
+									<!-- end pages -->
 									<div class="separator-big"></div>
 								</div>
-								<!-- end home -->
+								<!-- end title home -->
+
+								<div class="separator"></div>
+
+								<!-- end features -->
+								<div class="separator-big"></div>
 							</div>
-							<!-- end tabs home -->
-							
-							
-							 
-							
-							
-							
-							
-							
-							
-							 
-							
-
-														<!-- tabs store -->
-							<div id="tab-other" class="tab page-content">
-<br /><br />
-  <center style="margin-top: 20rem;">
-	<h1>
-		Is Not Active <br><br> جارێ ئەکتیڤ نەکراوە
-	</h1>
-  </center>
-
-		</div>
-
-
-<!--Start Other-->
+							<!-- end home -->
+						</div>
+						<!-- end tabs home -->
 
 
 
 
 
-<div id="tab-i" class="tab page-content">
-<br /><br />
 
-		<center>
-		
-		<h1>
-		زانیاری دەربارەی سایت و گەشەپێدەر 
-		</h1>
-		
-		</center>
-		<!-- profile -->
-		<div class="segments-page">
-			<div class="container">
-				<div class="profile">
-					<div style="background-image:url(images/au1.png);background repeat:no-repeat;
+
+
+
+
+
+
+						<!-- tabs store -->
+						<div id="tab-other" class="tab page-content">
+							<br /><br />
+							<center style="margin-top: 20rem;">
+								<h1>
+									Is Not Active <br><br> جارێ ئەکتیڤ نەکراوە
+								</h1>
+							</center>
+
+						</div>
+
+
+						<!--Start Other-->
+
+
+
+
+
+						<div id="tab-i" class="tab page-content">
+							<br /><br />
+
+							<center>
+
+								<h1>
+									زانیاری دەربارەی سایت و گەشەپێدەر
+								</h1>
+
+							</center>
+							<!-- profile -->
+							<div class="segments-page">
+								<div class="container">
+									<div class="profile">
+										<div style="background-image:url(images/au1.png);background repeat:no-repeat;
       background-size:cover;background-position:center;" class="content-box">
-						<div class="profile-user">
-							<div class="content-image">
-								<img src="images/profile.PNG" alt="">
+											<div class="profile-user">
+												<div class="content-image">
+													<img src="images/profile.PNG" alt="">
 
-							</div>
-							<div class="profile-name">
-								<h4> <i style="color:#00acee;" class="fa fa-check-circle"></i>Zhanyar</h4>
-								<span>
-									ژەنیار ئایۆئێس ستۆریەک تایبەت بە بەرنامە هاکراوەکان و کراک کراوەکان بۆ ئایفۆن و ئایپاد
-								</span>
-							</div>
-						</div>
-						<div class="separator"></div>
-						<div class="profile-button">
-							<ul>
-							
-									<li>
-								<a class="link external" href="https://t.me/ZhanyarIOS">
-									<button style="background:#00acee "class="buttons">تیلیگرام</button>
-									</a>
-								</li>
+												</div>
+												<div class="profile-name">
+													<h4> <i style="color:#00acee;"
+															class="fa fa-check-circle"></i>Zhanyar</h4>
+													<span>
+														ژەنیار ئایۆئێس ستۆریەک تایبەت بە بەرنامە هاکراوەکان و کراک
+														کراوەکان بۆ ئایفۆن و ئایپاد
+													</span>
+												</div>
+											</div>
+											<div class="separator"></div>
+											<div class="profile-button">
+												<ul>
 
-								<li>
-								<a class="link external" href="./zhanyar.mobileconfig">
-									<button style="background:#ffae42 "class="buttons">وێبسایت بەرنامە</button>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<br />
-					<center>
+													<li>
+														<a class="link external" href="https://t.me/ZhanyarIOS">
+															<button style="background:#00acee "
+																class="buttons">تیلیگرام</button>
+														</a>
+													</li>
 
-
-<p style="color:#000777"> هەموو سوپاس و پێزانینێک بۆ...
-</p>
-
-</center>
-<br />
-		<!-- popover -->
-
-			<div style="direction: ltr;" class="container">
-				<!-- popover control -->
-				<div class="popover-pages">
-					<div class="list links-list list-box popover-link">
-						<ul>
+													<li>
+														<a class="link external" href="./zhanyar.mobileconfig">
+															<button style="background:#ffae42 " class="buttons">وێبسایت
+																بەرنامە</button>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<br />
+										<center>
 
 
-<li>
-								<a class="link external" href="https://t.me/Zhanyar_004"> 
+											<p style="color:#000777"> هەموو سوپاس و پێزانینێک بۆ...
+											</p>
 
-								<i style="color:#00acee" class="fab fa-telegram"></i>
-<br />
-<p>‏ Zhanyar IOS ( Owner ) </p>
-								 </a>
-							</li>
-							
-							<li>
-								<li>
-								<a class="link external" href="https://www.snapchat.com/add/zhanyar_004"> 
+										</center>
+										<br />
+										<!-- popover -->
 
-								<i style="color:#ffae42;" class="fab fa-snapchat"></i>
-<br />
-<p> ‏ Zhanyar IOS ( Owner )</p>
-								 </a>
-							</li>
-							
-							<li>
-								<a class="link external" href="https://t.me/Ahmedios1"> 
+										<div style="direction: ltr;" class="container">
+											<!-- popover control -->
+											<div class="popover-pages">
+												<div class="list links-list list-box popover-link">
+													<ul>
 
-								<i style="color:#00acee" class="fab fa-telegram"></i>
-<br />
-<p> Ahmed IOS (Admin + Help)</p>
-								 </a>
-							</li>
-							
-							
+
 														<li>
-								<a class="link external" href="https://www.snapchat.com/add/ahmad-ios?share_id=Y3NToiMUTeCImq9sJh3Phw&locale=en_GB"> 
+															<a class="link external" href="https://t.me/Zhanyar_004">
 
-								<i style="color:#ffae42;" class="fab fa-snapchat"></i>
-<br />
-<p> ‏ Ahmed IOS (Admin + Help)</p>
-								 </a>
-							</li>
-							
+																<i style="color:#00acee" class="fab fa-telegram"></i>
+																<br />
+																<p>‏ Zhanyar IOS ( Owner ) </p>
+															</a>
+														</li>
+
+														<li>
+														<li>
+															<a class="link external"
+																href="https://www.snapchat.com/add/zhanyar_004">
+
+																<i style="color:#ffae42;" class="fab fa-snapchat"></i>
+																<br />
+																<p> ‏ Zhanyar IOS ( Owner )</p>
+															</a>
+														</li>
+
+														<li>
+															<a class="link external" href="https://t.me/Ahmedios1">
+
+																<i style="color:#00acee" class="fab fa-telegram"></i>
+																<br />
+																<p> Ahmed IOS (Admin + Help)</p>
+															</a>
+														</li>
 
 
-<li>
-								<a class="link external" href="https://t.me/PashaIos"> 
+														<li>
+															<a class="link external"
+																href="https://www.snapchat.com/add/ahmad-ios?share_id=Y3NToiMUTeCImq9sJh3Phw&locale=en_GB">
 
-								<i style="color:#00acee;" class="fab fa-snapchat"></i>
-<br />
-<p> ‏ Pasha IOS ( Helped )</p>
-								 </a>
-							</li>
-
-<li>
-								<a class="link external" href="https://www.snapchat.com/add/ammarsaffar2006?share_id=lcykJJkaSTC7FfdmxLrovQ&locale=en_IQ"> 
-
-								<i style="color:#ffae42;" class="fab fa-snapchat"></i>
-<br />
-<p> ‏ Pasha IOS ( Helped )</p>
-								 </a>
-							</li>
-
-							
-							
-							
-																			
-							
-						</ul>
-				</div></div>
-				<br />
-				<!-- end popover control -->
-				</div>				</div>
-
-		<!-- skill -->
-			
-		<!-- end skill -->
-		
-		<br />		<br />		<br />		<br />		<br />		<br />		<br />		<br />
-					</div>
-				</div>
-			</div>
-					</div>
-		<br />		<br />		<br />		<br />
-		<!-- end profile -->
+																<i style="color:#ffae42;" class="fab fa-snapchat"></i>
+																<br />
+																<p> ‏ Ahmed IOS (Admin + Help)</p>
+															</a>
+														</li>
 
 
 
+														<li>
+															<a class="link external" href="https://t.me/PashaIos">
 
-							<!-- end tabs other -->
+																<i style="color:#00acee;" class="fab fa-snapchat"></i>
+																<br />
+																<p> ‏ Pasha IOS ( Helped )</p>
+															</a>
+														</li>
+
+														<li>
+															<a class="link external"
+																href="https://www.snapchat.com/add/ammarsaffar2006?share_id=lcykJJkaSTC7FfdmxLrovQ&locale=en_IQ">
+
+																<i style="color:#ffae42;" class="fab fa-snapchat"></i>
+																<br />
+																<p> ‏ Pasha IOS ( Helped )</p>
+															</a>
+														</li>
 
 
 
 
 
-							
-							
-							
-							
-							
-							
 
-							
+													</ul>
+												</div>
+											</div>
+											<br />
+											<!-- end popover control -->
+										</div>
+									</div>
+
+									<!-- skill -->
+
+									<!-- end skill -->
+
+									<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+								</div>
+							</div>
 						</div>
 					</div>
-					<!-- end tabs -->
+					<br /> <br /> <br /> <br />
+					<!-- end profile -->
+
+
+
+
+					<!-- end tabs other -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 				</div>
 			</div>
+			<!-- end tabs -->
 		</div>
+	</div>
+	</div>
 
 
 
 
 
-					</div>
-		<br />		<br />		<br />		<br />
-		<!-- end profile -->
+	</div>
+	<br /> <br /> <br /> <br />
+	<!-- end profile -->
 
 
 
 
-							<!-- end tabs i -->
+	<!-- end tabs i -->
 
 
 
 
 
-							
-							
-							
-							
-							
-							
-
-							
-						</div>
-					</div>
-					<!-- end tabs -->
-				</div>
-			</div>
-		</div>
-<!--Start of Tab Other-->
 
 
 
-<!--End of Tab Other-->
 
 
-		<!-- script -->
-		<script>
-		
-// Wrap every letter in a span
-var textWrapper = document.querySelector('.ml1 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml1 .letter',
-    scale: [0.3,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 600,
-    delay: (el, i) => 70 * (i+1)
-  }).add({
-    targets: '.ml1 .line',
-    scaleX: [0,1],
-    opacity: [0.5,1],
-    easing: "easeOutExpo",
-    duration: 700,
-    offset: '-=875',
-    delay: (el, i, l) => 80 * (l - i)
-  }).add({
-    targets: '.ml1',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-		</script>
 
-		<!-- ConveyThis code -->
-<script src="//cdn.conveythis.com/javascript/conveythis-initializer.js"></script>
-<script type="text/javascript">
-	document.addEventListener("DOMContentLoaded", function(e) {
-		ConveyThis_Initializer.init({
-			api_key: "pub_80bd549e812c2de5c1a44e603bf23efe"
+
+	</div>
+	</div>
+	<!-- end tabs -->
+	</div>
+	</div>
+	</div>
+	<!--Start of Tab Other-->
+
+
+
+	<!--End of Tab Other-->
+
+
+	<!-- script -->
+	<script>
+
+		// Wrap every letter in a span
+		var textWrapper = document.querySelector('.ml1 .letters');
+		textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+		anime.timeline({ loop: true })
+			.add({
+				targets: '.ml1 .letter',
+				scale: [0.3, 1],
+				opacity: [0, 1],
+				translateZ: 0,
+				easing: "easeOutExpo",
+				duration: 600,
+				delay: (el, i) => 70 * (i + 1)
+			}).add({
+				targets: '.ml1 .line',
+				scaleX: [0, 1],
+				opacity: [0.5, 1],
+				easing: "easeOutExpo",
+				duration: 700,
+				offset: '-=875',
+				delay: (el, i, l) => 80 * (l - i)
+			}).add({
+				targets: '.ml1',
+				opacity: 0,
+				duration: 1000,
+				easing: "easeOutExpo",
+				delay: 1000
+			});
+	</script>
+
+	<!-- ConveyThis code -->
+	<script src="//cdn.conveythis.com/javascript/conveythis-initializer.js"></script>
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function (e) {
+			ConveyThis_Initializer.init({
+				api_key: "pub_80bd549e812c2de5c1a44e603bf23efe"
+			});
 		});
-	});
-</script>
-<!-- End ConveyThis code -->
-		<script src="js/framework7.bundle.min.js"></script>
-		<script src="js/routes.js"></script>
-		<script src="js/app.js"></script>
-		<!-- end script -->
-	</body>
+	</script>
+	<!-- End ConveyThis code -->
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/routes.js"></script>
+	<script src="js/app.js"></script>
+	<!-- end script -->
+</body>
+
 </html>
