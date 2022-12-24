@@ -619,13 +619,13 @@ oooAKKKKACiiigAooooAKKKKAP/Z</data>
 			<key>PayloadIdentifier</key>
 			<string>net.configuration.ZhanyarIOS</string>
 			<key>PayloadOrganization</key>
-			<string>MrRobot</string>
+			<string>Zhanyar IOS V.2</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
 			<string>eca205b7cc5103b6f58debbb0959b172</string>
 			<key>PayloadVersion</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Precomposed</key>
 			<true/>
 			<key>URL</key>
@@ -639,7 +639,7 @@ oooAKKKKACiiigAooooAKKKKAP/Z</data>
 	<key>PayloadIdentifier</key>
 	<string>net.configuration.ZhanyarIOS</string>
 	<key>PayloadOrganization</key>
-	<string>MrRobot</string>
+	<string>Zhanyar IOS V.2</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadType</key>
@@ -647,6 +647,6 @@ oooAKKKKACiiigAooooAKKKKAP/Z</data>
 	<key>PayloadUUID</key>
 	<string>b91f0df972c02d99206cb750f82e85cb</string>
 	<key>PayloadVersion</key>
-	<integer>1</integer>
+	<integer>2</integer>
 </dict>
 </plist>
