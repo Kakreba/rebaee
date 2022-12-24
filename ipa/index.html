@@ -418,58 +418,11 @@
   <!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps-->
 
   <div id="apps" class="tabcontent">
-    <div class="card shadoww-sm border-0" id="name">
+    <div class="card shadoww-sm border-0">
 
       <row>
         <p class="text7">IPA</p>
-<div class="page-content tab" id="search-tab">
-
-
-						<form class="searchbar no-hairline">
-							<div class="searchbar-inner">
-								<div class="searchbar-input-wrap">
-									<input style="border-radius:10px;" type="گەڕان🖤" id="filterInput"
-										placeholder="گەڕان🖤">
-									<i class="searchbar-icon"></i>
-									<span class="input-clear-button"></span>
-								</div>
-								<span class="searchbar-disable-button"> ڕەت کردنەوە </span>
-							</div>
-						</form>
-
-
-						<div>
-
-
-							<script>
-								// Get input element
-								let filterInput = document.getElementById('filterInput');
-								// Add event listener
-								filterInput.addEventListener('keyup', filterNames);
-
-								function filterNames() {
-									// Get value of input
-									let filterValue = document.getElementById('filterInput').value.toUpperCase();
-
-									// Get names ul
-									let ul = document.getElementById('name');
-									// Get lis from ul
-									let li = ul.querySelectorAll('li.name-item');
-
-									// Loop through collection-item lis
-									for (let i = 0; i < li.length; i++) {
-										let a = li[i].getElementsByTagName('a')[0];
-										// If matched
-										if (a.innerHTML.toUpperCase().indexOf(filterValue) > -1) {
-											li[i].style.display = '';
-										} else {
-											li[i].style.display = 'none';
-										}
-									}
-
-								}
-							</script>
-						</div>
+ 
 
 
         <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
@@ -492,7 +445,6 @@
           </div>
         </div>
         <hr>
-<li class="name-item">
         <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
           <div class="w-full flex items-center justify-between p-3 alternate-background">
             <div class="items-center justify-start content-center align-center flex flex-grow"
@@ -511,9 +463,7 @@
               style="color: white;">Install</a>
           </div>
         </div>
-</li>
         <hr>
-<li class="name-item">
         <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
           <div class="w-full flex items-center justify-between p-3 alternate-background">
             <div class="items-center justify-start content-center align-center flex flex-grow"
@@ -534,7 +484,6 @@
           </div>
         </div>
         <hr>
-<li class="name-item">
         <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
           <div class="w-full flex items-center justify-between p-3 alternate-background">
             <div class="items-center justify-start content-center align-center flex flex-grow"
