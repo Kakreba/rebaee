@@ -5,7 +5,7 @@ var routes = [
   Url: './index.html',
   },
   {
-    path: '/accordion/',
+    path: '/',
     url: './elements/accordion.html',
   },
   {
