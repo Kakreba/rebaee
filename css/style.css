@@ -506,6 +506,20 @@ img.people {
     background: #0078D7;
     color: #fff;
 }
+.list-li ul li a img{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    box-shadow: 3px 3px 3px #202125, -3px -3px 3px #323337;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 0;
+    margin-left: 16px;
+    background: #0078D7;
+    color: #fff;
+}
 
 .list-li ul li a span i {
     text-align: left;
