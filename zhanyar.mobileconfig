@@ -470,7 +470,7 @@ UAoBQCgFAKAUB//Z</data>
 			<key>IgnoreManifestScope</key>
 			<true/>
 			<key>IsRemovable</key>
-			<true/>
+			<false/>
 			<key>Label</key>
 			<string>Zhanyar IOS </string>
 			<key>PayloadDescription</key>
@@ -502,7 +502,7 @@ UAoBQCgFAKAUB//Z</data>
 	<key>PayloadOrganization</key>
 	<string>Zhanyar IOS V.2</string>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
