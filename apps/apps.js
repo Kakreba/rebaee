@@ -1,4 +1,4 @@
-function vshack(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/vshack.plist","_self")}
+function vshack(){window.open("itms-services://?action=download-manifest&url=https://plist.tweakdoor.com/videostarold","_self")}
 function vspro(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/vspro.plist","_self")}
 function snapx(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/snapx.plist","_self")}
 function insta(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/insta.plist","_self")}
