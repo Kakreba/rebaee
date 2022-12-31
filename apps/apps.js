@@ -4,7 +4,7 @@ function vshack(){window.open("itms-services://?action=download-manifest&url=htt
 function vspro(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/vspro.plist","_self")}
 
 
-function videofx(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/snapx.plist","_self")}
+function videofx(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/videofx.plist","_self")}
 
 
 function djay(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/insta.plist","_self")}
