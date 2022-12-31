@@ -7,7 +7,7 @@ function vspro(){window.open("itms-services://?action=download-manifest&amp;url=
 function videofx(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/videofx.plist","_self")}
 
 
-function djay(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/insta.plist","_self")}
+function djay(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/DjayPro.plist","_self")}
 
 
 function cutecut(){window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/tiktoklrd.plist","_self")}
