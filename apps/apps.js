@@ -65,9 +65,3 @@ function picsart() { window.open("itms-services://?action=download-manifest&amp;
 
 
 function qwran() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/Qwran.plist", "_self") }
-
-
-function () { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/youtube.plist", "_self") }
-
-
-function () { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/youtube.plist", "_self") }
