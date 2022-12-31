@@ -33,9 +33,9 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string></string>
+				<string>com.zhanyar.ios</string>
 				<key>bundle-version</key>
-				<string></string>
+				<string>1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
