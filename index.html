@@ -486,5 +486,208 @@ anime.timeline({loop: true}).add({
 
 
 
-<script src="path/to/halfmoon.min.js"></script>
-</body> </html>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+function toggleDemo() {
+    halfmoon.toggleDarkMode();
+
+  }
+
+  document.getElementById("defaultOpen").click();
+
+  function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+<script type="text/javascript">
+  // Toasts primary alert
+  function toastPrimaryAlert() {
+    halfmoon.initStickyAlert({
+      content: "This is a primary alert without a close button, that will stay up for 10 seconds.",
+      title: "Primary alert",
+      alertType: "alert-primary",
+      hasDismissButton: false,
+      timeShown: 10000
+    });
+  }
+  
+  // Toasts success alert
+  function toastSuccessAlert() {
+    halfmoon.initStickyAlert({
+      content: "This is a success alert that will be filled only in light mode.",
+      title: "Success alert",
+      alertType: "alert-success",
+      fillType: "filled-lm"
+    });
+  }
+  
+  // Toasts secondary alert
+  function toastSecondaryAlert() {
+    halfmoon.initStickyAlert({
+      content: "This is a secondary alert that will be filled only in dark mode.",
+      title: "Secondary alert",
+      alertType: "alert-secondary",
+      fillType: "filled-dm"
+    });
+  }
+  
+  // Toasts danger alert
+  function toastDangerAlert() {
+    halfmoon.initStickyAlert({
+      content: "دابەزاندنی ڤیدیۆ بەردەست نیە",
+      title: "Video Downloader not avalaible",
+      alertType: "alert-danger",
+      fillType: "filled"
+    });
+  }
+</script>
+<script>
+  // getting all required elements
+const searchWrapper = document.querySelector(".search-input");
+const inputBox = searchWrapper.querySelector("input");
+const suggBox = searchWrapper.querySelector(".autocom-box");
+const icon = searchWrapper.querySelector(".icon");
+let linkTag = searchWrapper.querySelector("a");
+let webLink;
+
+// if user press any key and release
+inputBox.onkeyup = (e)=>{
+    let userData = e.target.value; //user enetered data
+    let emptyArray = [];
+    if(userData){
+        icon.onclick = ()=>{
+            webLink = "https://jbtools.co/final/code/" + userData;
+            linkTag.setAttribute("href", webLink);
+            console.log(webLink);
+            linkTag.click();
+        }
+        emptyArray = suggestions.filter((data)=>{
+            //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
+            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase()); 
+        });
+        emptyArray = emptyArray.map((data)=>{
+            // passing return data inside li tag
+            return data = '<li>'+ data +'</li>';
+        });
+        searchWrapper.classList.add("active"); //show autocomplete box
+        showSuggestions(emptyArray);
+        let allList = suggBox.querySelectorAll("li");
+        for (let i = 0; i < allList.length; i++) {
+            //adding onclick attribute in all li tag
+            allList[i].setAttribute("onclick", "select(this)");
+        }
+    }else{
+        searchWrapper.classList.remove("active"); //hide autocomplete box
+    }
+}
+
+function select(element){
+    let selectData = element.textContent;
+    inputBox.value = selectData;
+    icon.onclick = ()=>{
+        webLink = "https://jbtools.co/final/code/" + selectData;
+        linkTag.setAttribute("href", webLink);
+        linkTag.click();
+    }
+    searchWrapper.classList.remove("active");
+}
+
+function showSuggestions(list){
+    let listData;
+    if(!list.length){
+        userValue = inputBox.value;
+        listData = '<li>'+ userValue +'</li>';
+    }else{
+        listData = list.join('');
+    }
+    suggBox.innerHTML = listData;
+}
+let suggestions = [
+        "Chimera",
+        "Facebook ++",
+        "Instagram ++",
+        "Tiktok ++",
+      "Kine master pro",
+        "Video star",
+        "8 ball pool",
+        "Agar.io",
+        "Among Us",
+        "Pubg hack",
+       "Effecty Hallme",
+       "Effecty 0% bo 100%",
+       "Effecty Agraka 1",
+       "Effecty Baznakan ",
+       "Effecty Chawakan",
+       "Effecty Dlla Agraka",
+       "Effecty Evil - Angel",
+       "Effecty Notficaton",
+       "EffectyPause & Play",
+       "Effecty Shushay Shkaw",
+       "Effecty Wave",
+       "Logo Videostar++ 1",
+       "Rasmi Alla",
+       "Effecty Briska",
+       "Effecty Gullakan",
+       "Effecty 100 zor shaz",
+       "Effecty Agraka 2",
+       "Effecty Briska 1",
+       "Effecty Dll",
+       "Effecty Emoji Jullau",
+       "Effecty Hllmy 2",
+       "Effecty Hearts'wave",
+       "Effecty Jullay Nau Text",
+       "Effecty Papupla",
+       "Effecty Shapoi Dang",
+       "Effecty Star",
+       "effect gull",
+       "Ferkarya Grngakani VideoStar",
+       "Ferkarya Grngakani AlightMotion",
+       "Mau show body",
+       "Your body language",
+       "Velocity",
+       "Camera lenta",
+       "Nutchi",
+       "ikbal",
+       "Beat 3 anh",
+       "beatsync",
+       
+       
+     
+     
+       
+       
+       
+       
+       
+       
+       
+       
+    ];
+    </script>
+<script src="/aseets/apps.js"></script><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon="{&quot;rayId&quot;:&quot;758a0d55befdbae2&quot;,&quot;version&quot;:&quot;2022.8.1&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;fb064222772341e99ff4b17f35bfba63&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;7837bb563fb71d69&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;fb064222772341e99ff4b17f35bfba63&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+</body></html>
