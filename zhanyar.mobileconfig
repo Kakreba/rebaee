@@ -502,7 +502,7 @@ UAoBQCgFAKAUB//Z</data>
 	<key>PayloadOrganization</key>
 	<string>Zhanyar IOS V.2</string>
 	<key>PayloadRemovalDisallowed</key>
-	<false/>
+	<true/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
