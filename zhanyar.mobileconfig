@@ -470,7 +470,7 @@ UAoBQCgFAKAUB//Z</data>
 			<key>IgnoreManifestScope</key>
 			<true/>
 			<key>IsRemovable</key>
-			<false/>
+			<true/>
 			<key>Label</key>
 			<string>Zhanyar IOS </string>
 			<key>PayloadDescription</key>
