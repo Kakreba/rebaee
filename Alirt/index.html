@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Js toast alert and notification</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+ how does it work ?
+     Add the CSS and JavaScript codes
+      to your document then 
+      call ava function like this =>
+      ava({
+        icon: string 'success' | 'danger' | 'info' | 'none' (defult is success),
+        text: string (alert text),
+        toast: bol true | false (defult is false) ,
+        progressBar: bol true | false (defult is true),
+        timer: int (defult is 4000),
+        btnText: string (Alert btn text Not Work For toast alerts),
+        direction: string 'rtl' | 'ltr' (defult is rtl only for toast),
+        position: string 'top-right' | 'top-left' | 'bottom-left' | 'bottom-right' (defult is top-right Only work for Toast alerts),
+      })
+
+      good luck =)
+ -->
+<h2>
+        Ava Alert
+    </h2>
+    <button style="padding: 10px 20px; margin: 5px; display: block;" onclick="info()">info alert</button>
+    <button style="padding: 10px 20px; margin: 5px; display: block;" onclick="success()">success alert</button>
+    <button style="padding: 10px 20px; margin: 5px; display: block;" onclick="danger()">danger alert</button>
+    <button style="padding: 10px 20px; margin: 5px; display: block;" onclick="white()">alert</button>
+    <hr>
+    <h2>
+        Ava Toast Alert
+    </h2>
+    <button style="padding: 10px 20px; margin: 5px; display: block;" onclick="Toast_info()">Toast info</button>
+    <button style="padding: 10px 20px; margin: 5px; display: block;" onclick="Toast_success()"> Toast success </button>
+    <button style="padding: 10px 20px; margin: 5px; display: block;" onclick="Toast_danger()"> Toast danger </button>
+    <button style="padding: 10px 20px; margin: 5px; display: block;" onclick="Toast_white()">Toast alert</button>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
