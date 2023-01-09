@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-us" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style type="text/css">
@@ -11,15 +12,15 @@
         .ng-hide:not(.ng-hide-animate) {
             display: none !important;
         }
-
+ 
         ng\:form {
             display: block;
         }
-
+ 
         .ng-animate-shim {
             visibility: hidden;
         }
-
+ 
         .ng-anchor {
             position: absolute;
         }
@@ -36,10 +37,10 @@
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
+ 
         ga('create', 'UA-26575989-46', 'auto');
         ga('send', 'pageview');
-
+ 
     </script>
 </head>
 <body>
@@ -50,7 +51,7 @@
 <p style="font-size:22px;" class="sub-header text-block-narrow">This is not a fault, just an accident that was not intentional.</p>
 </div>
 </div>
-<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;7804ce51bfce1d69&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;fb064222772341e99ff4b17f35bfba63&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
-
-
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{"rayId":"786ee650e9871d61","version":"2022.11.3","r":1,"token":"fb064222772341e99ff4b17f35bfba63","si":100}" crossorigin="anonymous"></script>
+ 
+ 
 </div></body></html>
