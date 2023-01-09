@@ -1,1 +1,1 @@
-[![Zhanyar IOS](https://www.zhanyarios.ml)](https://www.snapchat.com)
+[![Zhanyar IOS](https://www.zhanyarios.ml)](https://www.zhanyarios.ml)
