@@ -1,1 +1,1 @@
-[![Zhanyar IOS](https://www.zhanyarios.ml)](https://www.zhanyarios.ml)
+[![Zhanyar IOS](https://www.zhanyarios.ml)](https://app.netlify.com/sites/stupendous-beijinho-3e53d8/deploys)
