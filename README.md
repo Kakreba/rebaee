@@ -1,1 +1,1 @@
-[![Zhanyar IOS](https://api.netlify.com/api/v1/badges/4368e22f-656d-414c-95fc-ac9ada54391d/deploy-status)](https://www.zhanyarios.ml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/da5d481a-b8eb-40bd-923e-d27e2b0f1725/deploy-status)](https://app.netlify.com/sites/zhanyar/deploys)
