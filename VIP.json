@@ -47,7 +47,7 @@
             "iconURL": "https://icons.kasar.store/Instagram.png",
             "tintColor": "018084",
             "isLanZouCloud": 1,
-            "size": 
+            "size": 2.416e+8
         },
          {
             "name": "Snapchat ip",
@@ -61,7 +61,7 @@
             "iconURL": "https://kakaado.com/assets/img/icon/snapchatip.png",
             "tintColor": "018084",
             "isLanZouCloud": 1,
-            "size": 
+            "size": 204090000
         },
         {
             "name": "Snapchat X",
@@ -75,7 +75,7 @@
             "iconURL": "https://kakaado.com/assets/img/icon/snapchatip.png",
             "tintColor": "018084",
             "isLanZouCloud": 1,
-            "size": 
+            "size": 202520000
         },
          {
             "name": "Pubg KR",
@@ -89,7 +89,7 @@
             "iconURL": "https://kakaado.com/assets/img/pubg-kr.png",
             "tintColor": "018084",
             "isLanZouCloud": 1,
-            "size": 
+            "size": 1.9e+9
         },
          {
             "name": "Pubg Mobile",
@@ -103,7 +103,7 @@
             "iconURL": "https://kakaado.com/assets/img/icon/adopubg.png",
             "tintColor": "018084",
             "isLanZouCloud": 1,
-            "size": 
+            "size": 2.2e+9
         }
 ,
          
@@ -119,7 +119,7 @@
             "iconURL": "https://play-lh.googleusercontent.com/OS-MhSWOPtlUZLt0_UP5TI4juSf0XhyHxGfJa6pA-UIYkZ1BB6QHTZwaMEzZDPqYsmk",
             "tintColor": "018084",
             "isLanZouCloud": 1,
-            "size": 
+            "size": 203670000
         }
     ]
 }
