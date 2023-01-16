@@ -1,15 +1,15 @@
 "use strict";
 var routes = [
   {
-  path: '/',
-  Url: './index.html',
+  path: '',
+  Url: '',
   },
   {
-    path: './plist/',
+    path: '/plist/',
     url: './404.html',
   },
   {
-    path: '/plist/vshack',
+    path: '/vshack',
     url: './plist/vshack.html',
   },
   {
