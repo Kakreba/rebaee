@@ -5,12 +5,12 @@ var routes = [
   Url: './index.html',
   },
   {
-    path: '/',
-    url: './elements/accordion.html',
+    path: './plist/',
+    url: './404.html',
   },
   {
-    path: '/badges/',
-    url: './elements/badges.html',
+    path: '/plist/vshack',
+    url: './plist/vshack.html',
   },
   {
     path: '/buttons/',
