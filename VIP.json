@@ -34,76 +34,7 @@
             "isLanZouCloud": 1,
             "size": 139302840
         },
-        {
-            "name": "Video Star Pro",
-            "bundleIdentifier": "ml.kasar.store",
-            "developerName": "ADO",
-            "version": "1.7.08",
-            "versionDate": "2022-11-10T11:36:00+08:00",
-            "versionDescription": "hacked",
-            "downloadURL": "http://5.161.116.2.55/ipas/ipogo-2.6.2.ipa",
-            "localizedDescription": "iPogo++",
-            "iconURL": "https://kakaado.com/img/VS-Pro.JPG",
-            "tintColor": "018084",
-            "isLanZouCloud": 1,
-            "size": 26245857
-        },
-        {
-            "name": "Video Star ++",
-            "bundleIdentifier": "ml.kasar.store",
-            "developerName": "ADO",
-            "version": "20.1.4",
-            "versionDate": "2022-08-28T11:36:00+08:00",
-            "versionDescription": "hacked",
-            "downloadURL": "http://143.110.216.133/ipas/PPSSPP_v1.10.3-1201-g55981430f.ipa",
-            "localizedDescription": "PPSSPP",
-            "iconURL": "https://kakaado.com/assets/img/icon/videostar.png",
-            "tintColor": "018084",
-            "isLanZouCloud": 1,
-            "size": 75570872
-        },
-        {
-            "name": "Car X drift",
-            "bundleIdentifier": "8Ball.pool",
-            "developerName": "ADO",
-            "version": "4.0",
-            "versionDate": "2022-08-28T11:36:00+08:00",
-            "versionDescription": "hacked",
-            "downloadURL": "http://143.110.216.133/ipas/8ballpoolhack.ipa",
-            "localizedDescription": "8 Ball Pool",
-            "iconURL": "https://kakaado.com/img/Carx2.PNG",
-            "tintColor": "018084",
-            "isLanZouCloud": 1,
-            "size": 199302840
-        },
-         {
-            "name": "PPSSPP",
-            "bundleIdentifier": "com.HADO.PLAYER",
-            "developerName": "ADO",
-            "version": "2.5.6",
-            "versionDate": "2022-08-28T11:36:00+08:00",
-            "versionDescription": "hacked",
-            "downloadURL": "https://kasar.store/IPAS/HDOPlayer.ipa",
-            "localizedDescription": "HADO-PLAYER",
-            "iconURL": "https://kakaado.com/assets/img/icon/ppsspp.png",
-            "tintColor": "018084",
-            "isLanZouCloud": 1,
-            "size": 268550799
-        },
-         {
-            "name": "8 Ball Pool",
-            "bundleIdentifier": "com.cou.x",
-            "developerName": "ADO",
-            "version": "1.6.3",
-            "versionDate": "2022-11-11T6:43:00+08:00",
-            "versionDescription": "hacked",
-            "downloadURL": "https://kasar.store/IPAS/cpu-x.ipa",
-            "localizedDescription": "Premium",
-            "iconURL": "https://kakaado.com/img/8ball.PNG",
-            "tintColor": "018084",
-            "isLanZouCloud": 1,
-            "size": 9.1e+6
-        },
+        
          {
             "name": "Instagram++",
             "bundleIdentifier": "com.instagram.app",
@@ -175,21 +106,7 @@
             "size": 3468186092
         }
 ,
-         {
-            "name": "inshot",
-            "bundleIdentifier": "com.carxtech.sr",
-            "developerName": "ADO",
-            "version": "0.4.2",
-            "versionDate": "2022-12-02T15:00:00+08:00",
-            "versionDescription": "Hacked",
-            "downloadURL": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBZzFRZUVHTTdWUldsa2FOb2VUUXk1TTYtT2x1/root/content",
-            "localizedDescription": "CarX Street",
-            "iconURL": "https://kakaado.com/img/inshot.JPG",
-            "tintColor": "018084",
-            "isLanZouCloud": 1,
-            "size": 3468186092
-        }
-,
+         
          {
             "name": "Tiktok",
             "bundleIdentifier": "com.carxtech.sr",
@@ -200,21 +117,6 @@
             "downloadURL": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBZzFRZUVHTTdWUldsa2FOb2VUUXk1TTYtT2x1/root/content",
             "localizedDescription": "CarX Street",
             "iconURL": "https://play-lh.googleusercontent.com/OS-MhSWOPtlUZLt0_UP5TI4juSf0XhyHxGfJa6pA-UIYkZ1BB6QHTZwaMEzZDPqYsmk",
-            "tintColor": "018084",
-            "isLanZouCloud": 1,
-            "size": 3468186092
-        }
-,
-         {
-            "name": "ORG 2023",
-            "bundleIdentifier": "com.carxtech.sr",
-            "developerName": "ADO",
-            "version": "0.4.2",
-            "versionDate": "2022-12-02T15:00:00+08:00",
-            "versionDescription": "Hacked",
-            "downloadURL": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBZzFRZUVHTTdWUldsa2FOb2VUUXk1TTYtT2x1/root/content",
-            "localizedDescription": "CarX Street",
-            "iconURL": "https://play-lh.googleusercontent.com/86olYZDEcXeVJS9KP_4r5jqbiXZxKCygbilggCwK4aHMBw308bwqeKvj6ChVUIp3j3jP",
             "tintColor": "018084",
             "isLanZouCloud": 1,
             "size": 3468186092
