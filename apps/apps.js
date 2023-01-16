@@ -1,4 +1,4 @@
-function vshack() { window.open("itms-services://?action=download-manifest&url=https://zhanyarios.ml/plist/vshack.plist", "_self") }
+function vshack() { window.open("itms-services://?action=download-manifest&url=https://zhanyarios.ml/plist/vshack", "_self") }
 function vspro() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/vspro.plist", "_self") }
 function videofx() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/videofx.plist", "_self") }
 function djay() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/DjayPro.plist", "_self") }
