@@ -76,6 +76,23 @@
             "tintColor": "018084",
             "isLanZouCloud": 1,
             "size": 202520000
+        }
+
+,
+         
+         {
+            "name": "Tiktok",
+            "bundleIdentifier": "com.carxtech.sr",
+            "developerName": "ADO",
+            "version": "0.4.2",
+            "versionDate": "2022-12-02T15:00:00+08:00",
+            "versionDescription": "Hacked",
+            "downloadURL": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBZzFRZUVHTTdWUldsa2FOb2VUUXk1TTYtT2x1/root/content",
+            "localizedDescription": "CarX Street",
+            "iconURL": "https://play-lh.googleusercontent.com/OS-MhSWOPtlUZLt0_UP5TI4juSf0XhyHxGfJa6pA-UIYkZ1BB6QHTZwaMEzZDPqYsmk",
+            "tintColor": "018084",
+            "isLanZouCloud": 1,
+            "size": 203670000
         },
          {
             "name": "Pubg KR",
@@ -104,22 +121,6 @@
             "tintColor": "018084",
             "isLanZouCloud": 1,
             "size": 2.2e+9
-        }
-,
-         
-         {
-            "name": "Tiktok",
-            "bundleIdentifier": "com.carxtech.sr",
-            "developerName": "ADO",
-            "version": "0.4.2",
-            "versionDate": "2022-12-02T15:00:00+08:00",
-            "versionDescription": "Hacked",
-            "downloadURL": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBZzFRZUVHTTdWUldsa2FOb2VUUXk1TTYtT2x1/root/content",
-            "localizedDescription": "CarX Street",
-            "iconURL": "https://play-lh.googleusercontent.com/OS-MhSWOPtlUZLt0_UP5TI4juSf0XhyHxGfJa6pA-UIYkZ1BB6QHTZwaMEzZDPqYsmk",
-            "tintColor": "018084",
-            "isLanZouCloud": 1,
-            "size": 203670000
         }
     ]
 }
