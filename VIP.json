@@ -5,7 +5,6 @@
     "iconURL": "https://zhanyar.ios/images/Favicon.ico",
     "sourcceDescription": "74",
     "apps": [
-
         {
             "name": "Video Star Old",
             "bundleIdentifier": "free.kasar.store",
@@ -20,7 +19,7 @@
             "isLanZouCloud": 1,
             "size": 1.01995e+8
         },
-       {
+        {
             "name": "Video Star Pro",
             "bundleIdentifier": "com.frontierdesign.videostarpro",
             "developerName": "Zhanyar",
@@ -34,8 +33,7 @@
             "isLanZouCloud": 1,
             "size": 143183053
         },
-        
-         {
+        {
             "name": "Instagram++",
             "bundleIdentifier": "com.instagram.app",
             "developerName": "ADO",
@@ -49,7 +47,7 @@
             "isLanZouCloud": 1,
             "size": 2.53336e+8
         },
-         {
+        {
             "name": "Snapchat ip",
             "bundleIdentifier": "com.imageline.FLStudioMobile",
             "developerName": "ADO",
@@ -76,11 +74,8 @@
             "tintColor": "018084",
             "isLanZouCloud": 1,
             "size": 212357612
-        }
-
-,
-         
-         {
+        },
+        {
             "name": "Tiktok",
             "bundleIdentifier": "com.carxtech.sr",
             "developerName": "ADO",
@@ -94,7 +89,7 @@
             "isLanZouCloud": 1,
             "size": 213563474
         },
-         {
+        {
             "name": "Pubg KR",
             "bundleIdentifier": "com.SpringBoard.app",
             "developerName": "ADO",
@@ -108,7 +103,7 @@
             "isLanZouCloud": 1,
             "size": 2.04e+9
         },
-         {
+        {
             "name": "Pubg Mobile",
             "bundleIdentifier": "com.carxtech.sr",
             "developerName": "ADO",
