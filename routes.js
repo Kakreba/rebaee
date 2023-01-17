@@ -5,11 +5,11 @@ var routes = [
   Url: './index.html',
   },
   {
-    path: 'plist/',
+    path: './plist/',
     url: './404.html',
   },
   {
-    path: '/plist/vshack',
+    path: './plist/vshack',
     url: './plist/vshack.html',
   },
   {
