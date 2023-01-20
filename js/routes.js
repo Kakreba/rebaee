@@ -5,7 +5,7 @@ var routes = [
   url: './index.html',
   },
   {
-    path: '.*'
+    path: '.*',
     url: '../404.html'
   }
   {
@@ -29,8 +29,8 @@ var routes = [
     url: '../books/index.html',
   },
   {
-    path: '/list-view/',
-    url: './elements/list-view.html',
+    path: '/apps/apps.js',
+    url: './404.html',
   },
   {
     path: '/popover/',
