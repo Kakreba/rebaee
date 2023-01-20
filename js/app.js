@@ -4,7 +4,7 @@ var $ = Dom7;
 
 // Init App
 var app = new Framework7({
-	root: '/plist/vshack',
+	root: '#app',
 	theme: 'md',
 	routes: routes,
 	view: {
@@ -14,5 +14,5 @@ var app = new Framework7({
 });
 
 var mainView = app.views.create('.view-main', {
-	url: '../plist/vshack.html'
+	url: './index.html'
 });
