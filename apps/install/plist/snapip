@@ -33,15 +33,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.videostar</string>
+				<string>ipa</string>
 				<key>bundle-version</key>
 				<string>8.3.2</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Video Star ++</string>
+				<string>Snapchat ip</string>
 				<key>title</key>
-				<string>Video Star ++</string>
+				<string>Snapchat ip</string>
 			</dict>
 		</dict>
 	</array>
