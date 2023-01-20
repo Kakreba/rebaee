@@ -1,4 +1,3 @@
-<meta http-equiv="Refresh" content="0; url='https://www.zhanyarios.ml/404.html'">
 function vshack() { window.open("itms-services://?action=download-manifest&url=https://zhanyarios.ml/plist/vshack", "_self") }
 function vspro() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/vspro", "_self") }
 function videofx() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/videofx", "_self") }
