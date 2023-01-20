@@ -10,7 +10,7 @@ var routes = [
   },
   {
     path: '/plist/vshack',
-    url: './plist/vshack.html',
+    url: '../plist/vshack.html',
   },
   {
     path: '/buttons/',
