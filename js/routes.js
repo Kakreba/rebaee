@@ -9,7 +9,7 @@ const routes = {
     404: "/404.html",
     "/": "/pages/index.html",
     "/plist/vshack": "/plist/vshack.html",
-    "/apps/apps.js": "../404.html",
+    "/plist": "/404.html",
 };
 
 const handleLocation = async () => {
