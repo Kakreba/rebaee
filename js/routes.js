@@ -2,7 +2,7 @@
 var routes = [
   {
   path: '/',
-  Url: './index.html',
+  Url: '/index.html',
   },
   {
     path: '/plist/',
