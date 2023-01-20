@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.zhanyar.ios</string>
+				<string>com.frontierdesign.videostar</string>
 				<key>bundle-version</key>
 				<string>8.3.2</string>
 				<key>kind</key>
