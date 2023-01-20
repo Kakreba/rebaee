@@ -9,7 +9,7 @@ var routes = [
     url: './404.html',
   },
   {
-    path: 'vshack',
+    path: '/plist/vshack',
     url: './plist/vshack.html',
   },
   {
