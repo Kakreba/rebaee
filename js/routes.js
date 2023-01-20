@@ -8,7 +8,7 @@ const route = (event) => {
 const routes = {
     404: "/404.html",
     "/": "/pages/index.html",
-    "/vshack": "/plist/vshack.html",
+    "/plist/vshack": "/plist/vshack.html",
     "/apps/apps.js": "../404.html",
 };
 
