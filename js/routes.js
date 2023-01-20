@@ -6,15 +6,15 @@ var routes = [
   },
   {
     path: './plist/',
-    url: './404.html',
+    url: '../404.html',
   },
   {
     path: '/plist/vshack',
-    url: './plist/vshack.html',
+    url: '../plist/vshack.html',
   },
   {
-    path: '/buttons/',
-    url: './elements/buttons.html',
+    path: '/apple-id',
+    url: '../apple-id/index.html',
   },
   {
     path: '/cards/',
