@@ -200,8 +200,4 @@ var routes = [
     path: '/unc/',
     url: './plists/unc.plist/',
   },
-  {
-    path: '(.*)',
-    url: './404.html'
-  }
 ];
