@@ -2,8 +2,12 @@
 var routes = [
   {
   path: '/',
-  Url: './index.html',
+  url: './index.html',
   },
+  {
+    path: '.*'
+    url: '../404.html'
+  }
   {
     path: './plist/',
     url: '../404.html',
@@ -17,12 +21,12 @@ var routes = [
     url: '../apple-id/index.html',
   },
   {
-    path: '/cards/',
-    url: './elements/cards.html',
+    path: '/apps',
+    url: '../apps/index.html',
   },
   {
-    path: '/icons/',
-    url: './elements/icons.html',
+    path: '/books',
+    url: '../books/index.html',
   },
   {
     path: '/list-view/',
