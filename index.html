@@ -448,7 +448,20 @@
             <br/>
         <!-- end profile -->
         
-    
+        <script src="./js/routes.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="x/framework7/js/framework7.bundle.min.js"></script>
+    <script src="x/js/routes.js"></script>
+    <script src="x/js/app.js"></script>
+    <script src="x/js/page.js"></script>
+    <script type="text/javascript">
+        if (localStorage.getItem('theme')) {
+            $$("body").removeClass('theme-dark').removeClass('theme-light').removeClass('theme-dark-2').removeClass('theme-oled').addClass(localStorage.getItem('theme'));
+        }
+        if (localStorage.getItem('color-theme')) {
+            $$("body").addClass(localStorage.getItem('color-theme'));
+        }
+    </script>
 
             <!-- end tabs other -->
 
