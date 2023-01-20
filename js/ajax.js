@@ -3,10 +3,10 @@ const path = require("path");
 
 const app = express();
 
-app.use("/apps", express.static(path.resolve(__dirname, "apps", "apps")));
+app.use("/apps", express.static(path.resolve(__dirname, "apps")));
 
 app.get("/*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "frontend", "index.html"));
+    res.sendFile(path.resolve(__dirname, "apps", "index.html"));
 });
 
 app.listen(process.env.PORT || 3000, () => console.log("Server running..."));
