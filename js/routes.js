@@ -13,8 +13,8 @@ var routes = [
     url: '../plist/vshack.html',
   },
   {
-    path: '/buttons/',
-    url: './elements/buttons.html',
+    path: '/apps/install/plist/',
+    url: '/404.html',
   },
   {
     path: '/cards/',

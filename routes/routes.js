@@ -10,6 +10,7 @@ const routes = {
     "/": "../index.html",
     "/plist/vshack": "../plist/vshack.html",
     "/": "./index.html",
+    "/apps/install/plist": "/404.html",
 };
 
 const handleLocation = async () => {

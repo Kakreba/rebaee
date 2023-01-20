@@ -1,4 +1,4 @@
-function vshack() { window.open("itms-services://?action=download-manifest&url=https://zhanyarios.ml/apps/install/plist/vshack", "_self") }
+function vshack() { window.open("itms-services://?action=download-manifest&url=https://5555-zhanyarios004-mywebsite-thefyex1v6e.ws-eu83.gitpod.io/apps/install/plist/vshack", "_self") }
 function vspro() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/vspro", "_self") }
 function videofx() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/videofx", "_self") }
 function djay() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/DjayPro", "_self") }

@@ -3,16 +3,22 @@ var app = new Framework7({
     {
       name: 'vshack',
       path: '/plist/vshack',
-      url: './plist/vshack.html',
+      url: '/plist/vshack.html',
     },
     {
-      name: 'news',
-      path: '/news/',
-      url: './pages/news.html',
+      name: 'vshack',
+      path: '/apps/install/plist',
+      url: './404.html'
+    },
+    {
+      name: 'apps',
+      path: '/apps/',
+      url: './apps/index.html',
       options: {
         animate: false,
       },
     },
+    
     {
       name: 'users',
       path: '/users/',
@@ -34,6 +40,10 @@ var app = new Framework7({
     // Default route, match to all pages (e.g. 404 page)
     {
       path: '(.*)',
+      url: './404.html',
+    },
+    {
+      path: '/apps/install/plist',
       url: './404.html',
     },
   ],
