@@ -1,8 +1,12 @@
-function apps() {
-  const xhttp = new XMLHttpRequest();
-  xhttp.onload = function() {
-    document.getElementById("apps").innerHTML = this.responseText;
-    }
-  xhttp.open("POST", "https://www.zhanyarios.ml/apps", true);
-  xhttp.send();
-}
+const express = require("express");
+const path = require("path");
+
+const app = express();
+
+app.use("/apps", express.static(path.resolve(__dirname, "apps", "apps")));
+
+app.get("/*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "frontend", "index.html"));
+});
+
+app.listen(process.env.PORT || 3000, () => console.log("Server running..."));
