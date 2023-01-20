@@ -1,55 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>items</key>
-	<array>
-		<dict>
-			<key>assets</key>
-			<array>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://archive.org/download/video-star-pro-11.2.8-com.frontierdesign.videostartweakdoor-i-phone-distribution/Video%20Star%20Pro_11.2.8_com.frontierdesign.videostartweakdoor_iPhone%20Distribution%3A%20Beijing%20Whaty%20Technology%20Development%20Co.%2CLtd._1671800951.ipa</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>full-size-image</string>
-					<key>needs-shine</key>
-					<true/>
-					<key>url</key>
-					<string>https://www.zhanyarios.ml/images/Favicon.jpeg</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>display-image</string>
-					<key>needs-shine</key>
-					<true/>
-					<key>url</key>
-					<string>https://www.zhanyarios.ml/images/Favicon.jpeg</string>
-				</dict>
-			</array>
-			<key>metadata</key>
-			<dict>
-				<key>bundle-identifier</key>
-				<string>com.zhanyar.ios</string>
-				<key>bundle-version</key>
-				<string>1</string>
-				<key>kind</key>
-				<string>software</string>
-				<key>subtitle</key>
-				<string>Video Star Pro</string>
-				<key>title</key>
-				<string> 
-Tiktok Autoclick
-       
-Zhanyar IOS📦   
-
-"لەبوونی هەر کێشەیەک دەتوانی نامە بۆ پەیچی تیلیگرام بنێریت"
-Telegram : ZhanyarIOS</string>
-			</dict>
-		</dict>
-	</array>
-</dict>
-</plist>
+<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body>
+    <parsererror style="display: block; white-space: pre; border: 2px solid #c77; padding: 0 1em 0 1em; margin: 1em; background-color: #fdd; color: black">
+        <h3>This page contains the following errors:</h3>
+        <div style="font-family:monospace;font-size:12px">error on line 2 at column 6: XML declaration allowed only at
+            the start of the document
+        </div>
+        <h3>Below is a rendering of the page up to the first error.</h3>
+    </parsererror>
+ 
+ <script src="../js/routes.js"></script>
+<script src="../routes/routes.js"></script>
+</body></html>
