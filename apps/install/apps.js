@@ -1,6 +1,7 @@
 function vshack() { window.open("itms-services://?action=download-manifest&url=https://zhanyarios.ml/apps/install/plist/vshack", "_self") }
 function vspro() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/vspro", "_self") }
 function videofx() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/videofx", "_self") }
+function alight() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/alight", "_self") }
 function djay() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/djay", "_self") }
 function cutecut() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/cutecut", "_self") }
 function moviespirit() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/moviespirit", "_self") }
