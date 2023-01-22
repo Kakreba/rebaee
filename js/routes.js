@@ -5,7 +5,7 @@ var routes = [
   Url: './index.html',
   },
  {
-  path: '/game',
+  path: '/game/',
   Url: './apps/game.html',
   },
   
