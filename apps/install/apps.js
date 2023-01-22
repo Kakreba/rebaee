@@ -8,7 +8,7 @@ function moviespirit() { window.open("itms-services://?action=download-manifest&
 function vnvideo() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/vnvideo", "_self") }
 function luma() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/luma", "_self") }
 function funimate() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/funimate", "_self") }
-function snapplus(){ window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/plist/snapplus", "_self") }
+function snapplus(){ window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/snapplus", "_self") }
 function snapip(){ window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/snapip", "_self") }
 function snapx() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/snapx", "_self") }
 function insta() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/insta", "_self") }
