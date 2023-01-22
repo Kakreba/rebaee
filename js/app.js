@@ -13,7 +13,7 @@ var app = new Framework7({
 
 });
 var game = new Framework7({
-	root: '/game/',
+	root: '#game',
 	theme: 'md',
 	routes: routes,
 	view: {
