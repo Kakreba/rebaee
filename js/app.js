@@ -12,7 +12,19 @@ var app = new Framework7({
 	},
 
 });
+var game = new Framework7({
+	root: '/game/',
+	theme: 'md',
+	routes: routes,
+	view: {
+		pushState: true,
+	},
+
+});
 
 var mainView = app.views.create('.view-main', {
 	url: './index.html'
+});
+var mainView = game.views.create('.view-main', {
+	url: './apps/game.html'
 });
