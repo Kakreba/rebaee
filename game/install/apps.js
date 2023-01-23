@@ -1,9 +1,9 @@
-function vshack() { window.open("itms-services://?action=download-manifest&url=https://zhanyarios.ml/apps/install/plist/vshack", "_self") }
-function vspro() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/vspro", "_self") }
-function videofx() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/videofx", "_self") }
-function alight() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/alight", "_self") }
-function djay() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/djay", "_self") }
-function cutecut() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/cutecut", "_self") }
+function pubg() { window.open("itms-services://?action=download-manifest&url=https://zhanyarios.ml/game/install/plist/pubg", "_self") }
+function pubgkr() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/pubgkr", "_self") }
+function minecraft() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/minecraft", "_self") }
+function carx() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/carx", "_self") }
+function carx2() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/carx2", "_self") }
+function 8ball() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/8ball", "_self") }
 function moviespirit() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/moviespirit", "_self") }
 function vnvideo() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/vnvideo", "_self") }
 function luma() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/luma", "_self") }
