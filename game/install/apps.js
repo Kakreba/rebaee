@@ -3,7 +3,7 @@ function pubgkr() { window.open("itms-services://?action=download-manifest&amp;u
 function minecraft() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/minecraft", "_self") }
 function carx() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/carx", "_self") }
 function carx2() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/carx2", "_self") }
-function 8ball() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/8ball", "_self") }
+function ball() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/game/install/plist/8ball", "_self") }
 function moviespirit() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/moviespirit", "_self") }
 function vnvideo() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/vnvideo", "_self") }
 function luma() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/luma", "_self") }
