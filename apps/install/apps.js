@@ -24,8 +24,8 @@ function ADguard() { window.open("itms-services://?action=download-manifest&amp;
 function Photomath() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/Photomath", "_self") }
 function picsart() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/picsart", "_self") }
 function qwran() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/qwran", "_self") }
-///
-function org() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/org", "_self") }
+
+///function org() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/org", "_self") }
 function crossdj() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/crossdj", "_self") }
 function discord() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/discord", "_self") }
 function facebook() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/facebook", "_self") }
@@ -37,5 +37,4 @@ function autoclicker() { window.open("itms-services://?action=download-manifest&
 function ps() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/ps", "_self") }
 function shadowr() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/shadowr", "_self") }
 function inshot() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/inshot", "_self") }
-function tempoapp() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/tempoapp", "_self") }
-///
+function tempoapp() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/tempoapp", "_self") }///
