@@ -26,15 +26,15 @@ function picsart() { window.open("itms-services://?action=download-manifest&amp;
 function qwran() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/qwran", "_self") }
 
 ///function org() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/org", "_self") }
-function crossdj() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/crossdj", "_self") }
-function discord() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/discord", "_self") }
-function facebook() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/facebook", "_self") }
-function messenger() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/messenger", "_self") }
-function facetune() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/facetune", "_self") }
-function vivacut() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/vivacut", "_self") }
-function lightroom() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/lightroom", "_self") }
-function autoclicker() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/autoclicker", "_self") }
-function ps() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/ps", "_self") }
-function shadowr() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/shadowr", "_self") }
-function inshot() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/inshot", "_self") }
-function tempoapp() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/tempoapp", "_self") }///
+///function crossdj() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/crossdj", "_self") }
+///function discord() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/discord", "_self") }
+///function facebook() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/facebook", "_self") }
+///function messenger() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/messenger", "_self") }
+///function facetune() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/facetune", "_self") }
+///function vivacut() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/vivacut", "_self") }
+///function lightroom() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/lightroom", "_self") }
+///function autoclicker() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/autoclicker", "_self") }
+///function ps() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/ps", "_self") }
+///function shadowr() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/shadowr", "_self") }
+///function inshot() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/inshot", "_self") }
+///function tempoapp() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/tempoapp", "_self") }
