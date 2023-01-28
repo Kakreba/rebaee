@@ -24,7 +24,6 @@ function ADguard() { window.open("itms-services://?action=download-manifest&amp;
 function Photomath() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/Photomath", "_self") }
 function picsart() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/picsart", "_self") }
 function qwran() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/qwran", "_self") }
-
 ///function org() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/org", "_self") }
 ///function crossdj() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/crossdj", "_self") }
 ///function discord() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/discord", "_self") }
