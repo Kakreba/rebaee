@@ -22,7 +22,7 @@ function fakecall() { window.open("itms-services://?action=download-manifest&amp
 function radarbot() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/radarbot", "_self") }
 function ADguard() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/ADguard", "_self") }
 function Photomath() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/Photomath", "_self") }
-function picsart() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/picsart", "_self") }
+function picsart() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/picsart.php", "_self") }
 function qwran() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/qwran", "_self") }
 function pubg() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/pubg", "_self") }
 function pubgkr() { window.open("itms-services://?action=download-manifest&amp;url=https://zhanyarios.ml/apps/install/plist/pubgkr", "_self") }
