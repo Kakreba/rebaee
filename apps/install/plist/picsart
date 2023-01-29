@@ -1,1 +1,49 @@
-items assets kind software-package url https://archive.org/download/shadowrocket-2.2.22-1674955876/Shadowrocket_2.2.22_1674955876.ipa/direct kind display-image url https://vip.ittza7aa.com/img/VIP%20Store.png kind full-size-image url https://vip.ittza7aa.com/img/VIP%20Store.png metadata bundle-identifier com.liguangming.Shadowrocket bundle-version 145.0 kind software title Video Star Hack
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/vshack-123/Vshack123.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://www.zhanyarios.ml/images/Favicon.jpeg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://www.zhanyarios.ml/images/Favicon.jpeg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>ipa</string>
+				<key>bundle-version</key>
+				<string>8.3.2</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>Pucsart</string>
+				<key>title</key>
+				<string>Picsart</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
