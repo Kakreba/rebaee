@@ -1,7 +1,7 @@
 
 // search code 
 const search = () =>{
-	const searchbox = document.getElementById("searchbar-backdrop").value.toUpperCase();
+	const searchbox = document.getElementById(".searchbar-backdrop").value.toUpperCase();
 	const storeitems = document.getElementById(".apps")
 	const product = document.querySelectorAll(".app-file")
 	const pname = document.getElementsByTagName(".text5")
